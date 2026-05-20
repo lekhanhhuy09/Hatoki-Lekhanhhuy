@@ -1500,7 +1500,7 @@ app.get('/', (req, res) => {
     res.json({
         service: ALGO_NAME,
         endpoints: Object.keys(GAME_CONFIG).map(id => `/api/${id}`),
-        auth: "?key=apihdx"
+        auth: "?key=Mua Liên Hệ @nguoilabantool"
     });
 });
 
